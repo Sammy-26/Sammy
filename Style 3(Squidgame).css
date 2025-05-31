@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    border: 5px dotted rgb(139, 0, 0);
+    color: rgb(143, 66, 56)
+}
+
+tr:nth-child(odd){
+    background-color: rgb(197, 135, 135);
+}
+tr:nth-child(even){
+    background-color: rgb(211, 166, 166);
+}
+tr:hover{
+    background-color: rgb(160, 80, 80);
+    }
+table,tr,th,td{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+th{
+    padding: 5px;
+    background-color: rgb(255, 200, 200);
+}
+td{padding: 5px;}
+table{
+    width: 50%;
+    margin-left: 30px;
+}
